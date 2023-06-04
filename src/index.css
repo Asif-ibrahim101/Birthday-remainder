@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #F2BED1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card_section{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_title{
+  padding: 1rem 0;
+}
+
+.card_body{
+  background-color: white;
+  padding: 2rem;
+  width: 600px;
+}
+
+.items{
+  display: flex;
+  align-items: center;
+}
+
+.item_img{
+  margin: 0.5rem 0;
+}
+
+.item_img img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.details{
+  margin: 0 1.2rem;
+}
+
+.details .name{
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 0.5rem 0;
+}
+
+.details .age{
+  font-size: 1rem;
+  color: gray;
+}
+
+.clear_btn{
+  padding: 1rem;
+  width: 100%;
+}
+
+.clear_btn button {
+  width: 100%;
+  background-color: #DD58D6;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0;
+  font-weight: bold;
+  cursor: pointer;
+}
